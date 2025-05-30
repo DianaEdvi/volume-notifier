@@ -1,0 +1,28 @@
+{
+  "name": "volumenotifier",
+  "version": "1.0.0",
+  "description": "A tracker for your volume when speaking with headphones",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaEdvi/volume-notifier.git"
+  },
+  "author": "Diana Edvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaEdvi/volume-notifier/issues"
+  },
+  "homepage": "https://github.com/DianaEdvi/volume-notifier#readme",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.15.28",
+    "electron": "^36.3.2",
+    "typescript": "^5.8.3"
+  }
+}
